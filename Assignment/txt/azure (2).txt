@@ -1,0 +1,2 @@
+﻿https://learn.microsoft.com/training/modules/create-an-azure-account/
+https://learn.microsoft.com/training/modules/describe-core-architectural-components-of-azure/4-exercise-explore-learn-sandbox

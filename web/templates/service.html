@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Custom styles -->
+  <style>
+    /* Custom styles */
+    .service-icon {
+      font-size: 3rem;
+      color: #007bff;
+    }
+    .service-card {
+      border: 1px solid #ddd;
+      transition: all 0.3s ease-in-out;
+    }
+    .service-card:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Logo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Services Section -->
+  <section class="container mt-5">
+    <h2 class="text-center mb-4">Our Services</h2>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card service-card">
+          <div class="card-body text-center">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h5 class="card-title mt-3">Web Development</h5>
+            <p class="card-text">We specialize in creating responsive and user-friendly websites.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card service-card">
+          <div class="card-body text-center">
+            <i class="fas fa-mobile-alt service-icon"></i>
+            <h5 class="card-title mt-3">Mobile App Development</h5>
+            <p class="card-text">Designing and developing custom mobile applications for iOS and Android platforms.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card service-card">
+          <div class="card-body text-center">
+            <i class="fas fa-cloud service-icon"></i>
+            <h5 class="card-title mt-3">Cloud Services</h5>
+            <p class="card-text">Helping you migrate and manage your applications on cloud platforms like AWS, Azure, and Google Cloud.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more service cards as needed -->
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-light py-5">
+    <div class="container text-center">
+      <h3>Ready to get started?</h3>
+      <p class="lead">Contact us today for a free consultation.</p>
+      <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+</body>
+</html>
